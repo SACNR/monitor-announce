@@ -29,7 +29,7 @@ public OnFilterScriptInit()
 
 stock GetIP(ip[], const len)
 {
-    GetServerVarAsString("bind", ip, len);
+    GetConsoleVarAsString("bind", ip, len);
 }
 
 forward Announce();
